@@ -1,6 +1,6 @@
 <?php
 // Conectarse a la base de datos PostgreSQL (reemplaza con tus credenciales)
-$conn = pg_connect("host=localhost port=5432 dbname=proyecto-final user=postgres password=1590");
+$conn = pg_connect("host=localhost port=5432 dbname=proyecto-final user=postgres password=password");
 
 // Verificar la conexión
 if (!$conn) {
